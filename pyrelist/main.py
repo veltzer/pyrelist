@@ -30,7 +30,7 @@ def match() -> None:
         with open(file, "r", encoding="utf8") as stream:
             for line_number, line in enumerate(stream):
                 for elem in elems:
-                    if elem.match(line):
+                    if elem.search(line):
                         print(f"{file}:{line_number}: {line}", file=sys.stderr)
                         found = True
     if found:
