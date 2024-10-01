@@ -33,7 +33,11 @@ def match() -> None:
                     if elem.match(line):
                         print(f"{file}:{line_number}: {line}", file=sys.stderr)
                         found = True
-    sys.exit(not found)
+    if found:
+        code = 1
+    else:
+        code = 0
+    sys.exit(code)
 
 
 @register_main(
