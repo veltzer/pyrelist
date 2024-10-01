@@ -1,8 +1,8 @@
-# *pyreg* project by Mark Veltzer
+# *pyrelist* project by Mark Veltzer
 
-description: Pyreg helps you match a file against multiple regex patterns
+description: Pyrelist helps you match a file against multiple regex patterns
 
-project website: https://veltzer.github.io/pyreg
+project website: https://veltzer.github.io/pyrelist
 
 author: Mark Veltzer
 
@@ -12,25 +12,25 @@ version: 0.0.1
 
 ## github
 
-![License](https://img.shields.io/github/license/veltzer/pyreg)
+![License](https://img.shields.io/github/license/veltzer/pyrelist)
 
 ## build
 
-![build](https://github.com/veltzer/pyreg/workflows/build/badge.svg)
+![build](https://github.com/veltzer/pyrelist/workflows/build/badge.svg)
 
 ## pypi
 
-![PyPI - Status](https://img.shields.io/pypi/status/pyreg)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyreg)
-![PyPI - License](https://img.shields.io/pypi/l/pyreg)
-![PyPI - Package Name](https://img.shields.io/pypi/v/pyreg)
-![PyPI - Format](https://img.shields.io/pypi/format/pyreg)
+![PyPI - Status](https://img.shields.io/pypi/status/pyrelist)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyrelist)
+![PyPI - License](https://img.shields.io/pypi/l/pyrelist)
+![PyPI - Package Name](https://img.shields.io/pypi/v/pyrelist)
+![PyPI - Format](https://img.shields.io/pypi/format/pyrelist)
 
 ## pypi download
 
-![PyPI - Downloads](https://img.shields.io/pypi/dd/pyreg)
-![PyPI - Downloads](https://img.shields.io/pypi/dw/pyreg)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/pyreg)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/pyrelist)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/pyrelist)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pyrelist)
 
 
 

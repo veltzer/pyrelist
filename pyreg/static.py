@@ -1,5 +1,0 @@
-""" version which can be consumed from within the module """
-VERSION_STR = "0.0.1"
-DESCRIPTION = "Pyreg helps you match a file against multiple regex patterns"
-APP_NAME = "pyreg"
-LOGGER_NAME = "pyreg"

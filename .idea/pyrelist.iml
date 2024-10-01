@@ -8,12 +8,12 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/pyreg.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/pyrelist.egg-info" />
       <excludeFolder url="file://$MODULE_DIR$/htmlcov" />
       <excludeFolder url="file://$MODULE_DIR$/docs" />
       <excludeFolder url="file://$MODULE_DIR$/wheel" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (pyreg)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (pyrelist)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

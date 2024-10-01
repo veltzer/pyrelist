@@ -8,13 +8,13 @@ def get_readme():
 
 setuptools.setup(
     # the first three fields are a must according to the documentation
-    name="pyreg",
+    name="pyrelist",
     version="0.0.1",
     packages=[
-        "pyreg",
+        "pyrelist",
     ],
     # from here all is optional
-    description="Pyreg helps you match a file against multiple regex patterns",
+    description="Pyrelist helps you match a file against multiple regex patterns",
     long_description=get_readme(),
     long_description_content_type="text/x-rst",
     author="Mark Veltzer",
@@ -25,8 +25,8 @@ setuptools.setup(
         "regexp",
         "lint",
     ],
-    url="https://veltzer.github.io/pyreg",
-    download_url="https://github.com/veltzer/pyreg",
+    url="https://veltzer.github.io/pyrelist",
+    download_url="https://github.com/veltzer/pyrelist",
     license="MIT",
     platforms=[
         "python3",
@@ -34,18 +34,6 @@ setuptools.setup(
     install_requires=[
         "pylogconf",
         "pytconf",
-        "requests",
-        "types-requests",
-        "tqdm",
-        "numpy",
-        "pandas",
-        "unidecode",
-        "pyyaml",
-        "jsonschema",
-        "pytidylib",
-        "beautifulsoup4",
-        "lxml",
-        "html5lib",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -59,6 +47,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
     ],
     entry_points={"console_scripts": [
-        "pyreg=pyreg.main:main",
+        "pyrelist=pyrelist.main:main",
     ]},
 )

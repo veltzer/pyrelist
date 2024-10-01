@@ -1,5 +1,5 @@
 """
-All configurations for pyreg
+All configurations for pyrelist
 """
 from pytconf import Config, ParamCreator
 

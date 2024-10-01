@@ -2,7 +2,7 @@ from typing import List
 
 
 console_scripts: List[str] = [
-    "pyreg=pyreg.main:main",
+    "pyrelist=pyrelist.main:main",
 ]
 dev_requires: List[str] = [
     "pypitools",
@@ -14,27 +14,10 @@ config_requires: List[str] = [
 install_requires: List[str] = [
     "pylogconf",
     "pytconf",
-    "requests",
-    "types-requests",
-    "tqdm",
-    "numpy",
-    "pandas",
-    "unidecode",
-    "pyyaml",
-    "jsonschema",
-    "pytidylib",
-    "beautifulsoup4",
-    "lxml",
-    "html5lib",
 ]
 build_requires: List[str] = [
     "pymakehelper",
     "pydmt",
-    "pandas-stubs",
-    "lxml-stubs",
-    "types-beautifulsoup4",
-    "types-tqdm",
-    "types-jsonschema",
 ]
 test_requires: List[str] = [
     "pylint",
@@ -42,6 +25,5 @@ test_requires: List[str] = [
     "pytest-cov",
     "flake8",
     "mypy",
-    "types-PyYAML",
 ]
 requires = config_requires + install_requires + build_requires + test_requires

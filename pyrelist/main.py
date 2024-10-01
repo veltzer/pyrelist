@@ -1,9 +1,9 @@
 """
-The default group of operations that pyreg has
+The default group of operations that pyrelist has
 """
 import pylogconf.core
 from pytconf import register_endpoint, register_main, config_arg_parse_and_launch
-from pyreg.static import DESCRIPTION, APP_NAME, VERSION_STR
+from pyrelist.static import DESCRIPTION, APP_NAME, VERSION_STR
 
 
 @register_endpoint(
