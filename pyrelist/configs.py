@@ -4,10 +4,11 @@ All configurations for pyrelist
 from pytconf import Config, ParamCreator
 
 
-class ConfigNada(Config):
+class ConfigMatch(Config):
     """
-    Dont know what this is for
+    Config options for the match operation
     """
-    folder = ParamCreator.create_existing_folder(
-        help_string="Which folder to work on?",
+    patterns = ParamCreator.create_existing_file(
+        help_string="Which file to load regexps from?",
+        suffixes=[".json"]
     )
