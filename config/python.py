@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pyrelist=pyrelist.main:main",
-]
+scripts: dict[str,str] = {
+    "pyrelist": "pyrelist.main:main",
+}
 
 config_requires: list[str] = [
     "pyclassifiers",
