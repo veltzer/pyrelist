@@ -1,30 +1,24 @@
-""" python depedencies for this project """
-from typing import List
+""" python deps for this project """
 
-
-console_scripts: List[str] = [
+console_scripts: list[str] = [
     "pyrelist=pyrelist.main:main",
 ]
-dev_requires: List[str] = [
-    "pypitools",
-    "black",
-]
-config_requires: List[str] = [
+
+config_requires: list[str] = [
     "pyclassifiers",
 ]
-install_requires: List[str] = [
+install_requires: list[str] = [
     "pylogconf",
     "pytconf",
 ]
-build_requires: List[str] = [
+build_requires: list[str] = [
     "pymakehelper",
     "pydmt",
 ]
-test_requires: List[str] = [
+test_requires: list[str] = [
     "pylint",
     "pytest",
     "pytest-cov",
-    "flake8",
     "mypy",
 ]
 requires = config_requires + install_requires + build_requires + test_requires

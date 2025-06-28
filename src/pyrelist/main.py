@@ -20,14 +20,14 @@ from pyrelist.static import DESCRIPTION, APP_NAME, VERSION_STR
 )
 def match() -> None:
     # read the regex patterns
-    with open(ConfigMatch.patterns, "r", encoding="utf8") as stream:
+    with open(ConfigMatch.patterns, encoding="utf8") as stream:
         data = json.load(stream)
     elems = []
     for datum in data:
         elems.append(re.compile(datum))
     found = False
     for file in get_free_args():
-        with open(file, "r", encoding="utf8") as stream:
+        with open(file, encoding="utf8") as stream:
             for line_number, line in enumerate(stream):
                 for elem in elems:
                     if elem.search(line):
