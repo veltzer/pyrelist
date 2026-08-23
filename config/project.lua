@@ -4,3 +4,4 @@ KEYWORDS = {
     "regexp",
     "lint",
 }
+PYPI = true
