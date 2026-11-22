@@ -5,7 +5,7 @@
 
 description: Pyrelist helps you match a file against multiple regex patterns
 
-project website: https://veltzer.github.io/pyrelist
+project website: <https://veltzer.github.io/pyrelist>
 
 author: Mark Veltzer
 
