@@ -24,9 +24,7 @@ def match() -> None:
     # read the regex patterns
     with open(ConfigMatch.patterns, encoding="utf8") as stream:
         data = json.load(stream)
-    elems = []
-    for datum in data:
-        elems.append(re.compile(datum))
+    elems = [re.compile(datum) for datum in data]
     found = False
     for file in get_free_args():
         with open(file, encoding="utf8") as stream:
@@ -35,10 +33,7 @@ def match() -> None:
                     if elem.search(line):
                         print(f"{file}:{line_number}: {line}", file=sys.stderr)
                         found = True
-    if found:
-        code = 1
-    else:
-        code = 0
+    code = 1 if found else 0
     sys.exit(code)
 
 
